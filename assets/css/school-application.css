@@ -10,9 +10,10 @@
 .sch-card {
   width: 48%;
 }
+
 .sch-img {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   margin-right: 40px;
   margin-left: 20px;
@@ -26,6 +27,14 @@
   border-radius: 10px;
   width: 100%;
   box-shadow: 0px 3px 5px 1px #ddd;
+}
+.sch-item:hover {
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 .sch-item .sch-des {
   width: 100%;
@@ -63,20 +72,20 @@
   border-radius: 5px;
   text-align: center;
 }
-.out-card{
-    padding: 20px;
+.out-card {
+  padding: 20px;
 }
-.student-card{
-    box-shadow: 0px 3px 5px 1px #ddd;
-    text-align: center;
+.student-card {
+  box-shadow: 0px 3px 5px 1px #ddd;
+  text-align: center;
 }
-.student-card img{
-    width : 100%;
-    height : 200px;
-    object-fit: cover;
+.student-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
-.student-des{
-    padding : 20px 0;
+.student-des {
+  padding: 20px 0;
 }
 @media only screen and (max-width: 1000px) {
   .sch-row {
@@ -88,19 +97,19 @@
     display: block;
   }
 }
-@media only screen and (max-width : 400px){
-.sch-img{
+@media only screen and (max-width: 400px) {
+  .sch-img {
     margin-left: 10px;
     margin-right: 5px;
+  }
+  .sch-item {
+    padding: 45px 5px;
+  }
 }
-.sch-item{
-    padding : 45px 5px;
-}
-}
-@media only screen and (min-width : 767px) and (max-width : 991px){
-    .students{
-        /* width: 100%; */
-        margin-left : 0;
-        margin-right : 0;
-    }
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+  .students {
+    /* width: 100%; */
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
