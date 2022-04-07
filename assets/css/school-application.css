@@ -14,7 +14,7 @@
 .sch-img {
   width: 120px;
   height: 120px;
-  border-radius: 50%;
+  border-radius: 10%;
   margin-right: 40px;
   margin-left: 20px;
 }
@@ -83,6 +83,16 @@
   width: 100%;
   height: 200px;
   object-fit: cover;
+}
+.student-sch{
+  text-decoration: none;
+  color : #9B8718;
+}
+.student-sch:hover{
+  color : #ebcf30;
+}
+.additional-txt{
+  margin-top : 20px;
 }
 .student-des {
   padding: 20px 0;
