@@ -103,6 +103,9 @@
 .student-sch:hover{
   color : #ebcf30;
 }
+.student-sch-not-link {
+  color : #9B8718;
+}
 .additional-txt{
   margin-top : 20px;
 }
@@ -131,15 +134,25 @@
 .scholar-student-title {
   color : #9B8718;
   font-family: "Otomanopee One", sans-serif;
+  font-size: 18px;
+}
+.scholar-sub-title {
+  font-size: 14px;
 }
 .crown-position {
   color: #c9b232;
-  font-size: 80px;
+  font-size: 75px;
   position: absolute;
   top: -30px;
   right: -30px;
-  transform: rotate(30deg);
+  transform: rotate(25deg);
 }
+/* .crown-l {
+  font-size: 80px;
+}
+.crown-m {
+  font-size: 60px;
+} */
 @media only screen and (max-width: 1000px) {
   .sch-row {
     width: 100%;
