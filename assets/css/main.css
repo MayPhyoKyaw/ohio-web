@@ -188,6 +188,9 @@
   background-color: #fff;
   height: 5px;
 }
+.carousel-caption p.long-text-jp {
+  font-size: 14px !important;
+}
 
 /* carousel */
 
